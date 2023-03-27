@@ -1,11 +1,12 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+import Countries from './Countries'
 
 const Home = () => {
   return (
     <div>
       <Navigation />
-      Home
+      <Countries />
     </div>
   )
 }
